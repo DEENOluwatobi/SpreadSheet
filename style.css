@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.topping{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    background-color: #ddd;
+    width: 100%;
+
+}
+.sheet{
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    overflow: scroll;
+}
+.cell-row {
+    display: flex;
+}
+.cell {
+    width: 80px;
+    border: 1px solid rgb(109, 109, 109);
+    height: 30px;
+    outline: none;
+    box-sizing: border-box;
+}
+.cell.header {
+    text-align: center;
+    background: #ddd;
+}
+.cell.header.active {
+    background: rgb(106, 171, 236);
+    color: white;
+}
+.cell:focus {
+    background: #ddd;
+    border: 3px solid dodgerblue;
+}
+#export-btn {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
