@@ -75,7 +75,7 @@ exportBtn.onclick = function (e) {
 
     const a = document.createElement("a")
     a.href = csvUrl
-    a.download = "Exported Spreadsheet.csv"
+    a.download = "Spreadsheet.csv"
     a.click()
 }
 
