@@ -6,6 +6,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .topping{
     position: fixed;
     top: 0;
@@ -18,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 5px 20px;
 }
 .top-menu{
     display: flex;
@@ -29,17 +35,17 @@
 .menus{
     list-style: none;
     cursor: pointer;
-    font-size: .9em;
+    font-size: .8em;
 }
 #export-btn {
-    background:  rgb(52, 218, 244);
+    background:  rgb(49, 183, 203);
     color: white;
     border: none;
     padding: 5px 20px;
     display: inline-block;
     border-radius: 20px;
     cursor: pointer;
-    font-size: .8em;
+    font-size: .7em;
 }
 .sheet{
     width: 100%;
@@ -67,7 +73,6 @@
 .cell.header {
     text-align: center;
     background:  rgb(237, 252, 254);
-
 }
 .cell.header.active {
     background: rgb(171, 240, 250);
@@ -79,12 +84,73 @@
 }
 .engagement{
     width: 98%;
-    padding: 5px 20px;
+    padding: 0px 20px 10px 20px;
     margin: 0 10px;
     border-radius: 25px;
     background-color: rgb(212, 249, 255);
     display: flex;
-    justify-self: flex-start;
+    justify-content: flex-start;
     align-items: center;
     gap: 3px;
+    padding-top: 10px;
+    height: 2.5em;
+}
+.first-eng,
+.second-eng,
+.forth-eng{
+    padding-top: 5px;
+    padding-right: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    border-right: 1px solid rgb(132, 138, 138);
+    height: 2em;
+    margin-right: 5px;
+}
+.zoom,
+.font{
+    width: 4em;
+    font-size: .8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+    color: #3b3c3c;
+}
+.font{
+    width: 6em;
+}
+.font-det{
+    width: 5em;
+    overflow: hidden;
+    color: #3b3c3c;
+}
+.third-eng{
+    display: flex;
+    width: 6em;
+    justify-content: space-between;
+    border-right: 1px solid rgb(132, 138, 138);
+    height: 2em;
+    gap: 4px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-right: 8px;
+}
+.font-size-det{
+    width: 30px;
+    height: 25px;
+    border: 1px solid #3b3c3c;
+    border-radius: 5px;
+    font-size: .8em;
+    margin: 0 2px;
+}
+.minus{
+    padding: 0 5px 1px 0;
+}
+.plus{
+    padding-top: 2px;
+}
+.forth-eng{
+
 }
