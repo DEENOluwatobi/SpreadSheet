@@ -11,14 +11,14 @@
     top: 0;
     left: 0;
     height: 100px;
-    background-color: rgb(237, 254, 244);
+    background-color: rgb(237, 252, 254);
     width: 100%;
 }
 .file-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 20px;
 }
 .top-menu{
     display: flex;
@@ -32,7 +32,7 @@
     font-size: .9em;
 }
 #export-btn {
-    background:  rgb(82, 212, 136);
+    background:  rgb(52, 218, 244);
     color: white;
     border: none;
     padding: 5px 20px;
@@ -50,36 +50,39 @@
 .cell-row {
     display: flex;
 }
-.cell-num{
-    background-color: rgb(237, 254, 244);
-    width: 100vw;
+.cell-line{
+    background-color: rgb(237, 252, 254);
+    width: 100%;
+    display: flex;
+    font-size: .9em;
 }
 .cell {
     width: 80px;
-    border: 0.5px solid rgb(109, 109, 109);
-    height: 30px;
+    border: 0.2px solid rgba(199, 230, 235, 0.815);
+    height: 22px;
     outline: none;
     box-sizing: border-box;
+    font-size: .7em;
 }
 .cell.header {
     text-align: center;
-    background:  rgb(237, 254, 244);
+    background:  rgb(237, 252, 254);
 
 }
 .cell.header.active {
-    background: rgb(82, 212, 136);
-    color: white;
+    background: rgb(171, 240, 250);
+    color: rgb(13, 139, 158);
 }
 .cell:focus {
-    background: rgb(237, 254, 244);
-    border: 3px solid rgb(82, 212, 136);
+    background: rgb(237, 252, 254);
+    border: 1.5px solid rgb(52, 218, 244);
 }
 .engagement{
     width: 98%;
-    padding: 2px;
+    padding: 5px 20px;
     margin: 0 10px;
     border-radius: 25px;
-    background-color: rgba(82, 212, 136, 0.529);
+    background-color: rgb(212, 249, 255);
     display: flex;
     justify-self: flex-start;
     align-items: center;
