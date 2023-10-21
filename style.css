@@ -32,6 +32,16 @@
     align-items: center;
     gap: 15px;
 }
+.top-end{
+    gap: 10px
+}
+.profile-pic{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border: 1px solid rgb(13, 139, 158);  
+    border-radius: 50%;
+}
 .menus{
     list-style: none;
     cursor: pointer;
@@ -205,7 +215,13 @@
 .backward,
 .forward,
 .print,
-.zoom{
+.zoom,
+.fill,
+.borders,
+.merge-cell,
+.align,
+.vert-align,
+.text-wrap{
     cursor: pointer;
 }
 .text-color{
